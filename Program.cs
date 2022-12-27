@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
 
 namespace ATM
 {
     internal class Program
     {
+        // Main method - the heart of the program
         static void Main(string[] args)
         {
             decimal _accountNumberPaul = 1;
@@ -13,7 +15,7 @@ namespace ATM
             Console.WriteLine("\nPlease refer to the account, you would like to access:");
 
             decimal _login = GetInput();
-            if (_login == _accountNumberPaul)
+            if (_login == _accountNumberPaul) // Paul's account details
             {
                 decimal _pinPaul = 1234;
                 string _namePaul = "Paul Nord";
@@ -26,7 +28,7 @@ namespace ATM
                     CheckAction(_transactionsPaul, _accountPaul);
                 }
             }
-            else if (_login == _accountNumberLisa)
+            else if (_login == _accountNumberLisa) // Lisa's account details
             {
                 decimal _pinLisa = 4567;
                 string _nameLisa = "Lisa Otto";
@@ -39,12 +41,13 @@ namespace ATM
                     CheckAction(_transactionsLisa, _accountLisa);
                 }
             }
-            else
+            else // No matching account
             {
                 Console.WriteLine("\nThere is no account belonging to your reference!\nPlease try again.");
                 Main(args);
             }
 
+            // Continue with a different account
             Console.WriteLine("\nDo you wish to continue with a different account?");
             string _inputDifferentAccount = Console.ReadLine();
             if (_inputDifferentAccount == "Yes")
@@ -57,7 +60,6 @@ namespace ATM
             }
             Console.ReadLine();
         }
-
 
         // Method which compares the entered PIN with the actual PIN
         public static bool CheckPin(decimal pin, decimal account)
@@ -86,7 +88,6 @@ namespace ATM
             return CheckPin(pin, account, counter);
         }
 
-
         // Method which enables the user to choose a transaction
         public static void CheckAction(string[] transactions, decimal account)
         {
@@ -99,10 +100,9 @@ namespace ATM
             decimal _inputChoice = GetInput();
             switch (_inputChoice)
             {
-                case 1:
+                case 1: // Inserting money
                     Console.WriteLine("\nPlease enter the amount you wish to insert:");
                     decimal _inputInsert = GetInput();
-
                     if (_inputInsert != 0)
                     {
                         transactions = InsertMoney(transactions, _inputInsert);
@@ -114,10 +114,9 @@ namespace ATM
                         Console.WriteLine("\nYour desired amount is not valid! No money has been transferred from your account.\nYour balance has not been changed: {0} €", account);
                     }
                     break;
-                case 2:
+                case 2: // Withdrawing money
                     Console.WriteLine("\nPlease enter the amount you would like to withdraw:");
                     decimal _inputWithdraw = GetInput();
-
                     if (_inputWithdraw != 0 && _inputWithdraw <= account)
                     {
                         transactions = WithdrawMoney(transactions, _inputWithdraw);
@@ -129,13 +128,11 @@ namespace ATM
                         Console.WriteLine("\nYour desired amount is not valid! No money has been transferred from your account.\nYour balance has not been changed: {0} €", account);
                     }
                     break;
-                case 3:
-                    Console.WriteLine("\nPlease enter the owner of the account to whichyou wish to transfer:");
+                case 3: // Transferring money
+                    Console.WriteLine("\nPlease enter the owner of the account to which you wish to transfer:");
                     string inputName = Console.ReadLine();
-                     
                     Console.WriteLine("\nPlease enter the amount you would like to transfer to the account of {0}:", inputName);
                     decimal _inputTrans = GetInput();
-
                     if (_inputTrans != 0 && _inputTrans <= account)
                     {
                         transactions = TransferMoney(transactions, _inputTrans, inputName);
@@ -147,7 +144,7 @@ namespace ATM
                         Console.WriteLine("\nYour desired amount is not valid! No money has been transferred from your account.\nYour balance has not been changed: {0} €", account);
                     }
                     break;
-                case 4:
+                case 4: // Printing statement
                     Console.WriteLine("");
                     PrintStatement(transactions, account);
                     break;
@@ -156,8 +153,7 @@ namespace ATM
             ContinueTransactions(transactions, account);
         }
 
-
-        // Method to continue or finish
+        // Method to continue or finish with transactions
         public static void ContinueTransactions(string[] transactions, decimal account)
         {
             Console.WriteLine("\nDo you wish to continue your transactions?\nPlease enter 'Yes' in order to contiue. You will be automatically logged out otherwise!");
@@ -173,13 +169,13 @@ namespace ATM
             }
         }
 
-
         // Method which converts the user's input from string to decimal
         public static decimal GetInput()
         {
             string _input = Console.ReadLine();
 
-            Regex regex = new Regex(@"^\d{1,}[.]\d{1,2}$|^\d{1,}$");
+            // Using regular expressions to check if input is valid (with two decimal places)
+            Regex regex = new Regex(@"^\d{1,}[,]\d{1,2}$|^\d{1,}$");
 
             bool _result = regex.IsMatch(_input);
 
@@ -192,7 +188,6 @@ namespace ATM
                 return 0;
             }
         }
-
 
         // Methode which inserts an amount of money
         public static string[] InsertMoney(string[] transactions, decimal inputAmount)
@@ -210,7 +205,6 @@ namespace ATM
             return _tmp;
         }
 
-
         // Method which withdraws an amount of money (smaaller/equal to the current balance)
         public static string[] WithdrawMoney(string[] transactions, decimal inputAmount)
         {
@@ -227,7 +221,6 @@ namespace ATM
             return _tmp;
         }
 
-
         // Method which transfers an amount of money (smaaller/equal to the current balance) to a different account
         public static string[] TransferMoney(string[] transactions, decimal inputAmount, string inputName)
         {
@@ -243,7 +236,6 @@ namespace ATM
 
             return _tmp;
         }
-
 
         // Method which prints the statement
         public static void PrintStatement(string[] transactions, decimal account)
@@ -265,3 +257,7 @@ namespace ATM
         }
     }
 }
+
+// Note_Regex
+//     -> Links: https://www.c-sharpcorner.com/article/c-sharp-regex-examples/ (gives you an understanding of Regex)
+//               https://regex101.com (displayes an explanation of your regular expression)
