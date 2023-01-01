@@ -1,0 +1,45 @@
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.exe
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.deps.json
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.runtimeconfig.json
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.dll
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.pdb
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.csproj.AssemblyReference.cache
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.AssemblyInfoInputs.cache
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.AssemblyInfo.cs
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.csproj.CoreCompileInputs.cache
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.dll
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/refint/Automat.dll
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.pdb
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.genruntimeconfig.cache
+C:/Users/l.spoehle/source/repos/Bankautomat/Bankautomat/obj/Debug/net6.0/ref/Automat.dll
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.deps.json
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.runtimeconfig.json
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.dll
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/bin/Debug/net6.0/Automat.pdb
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.csproj.AssemblyReference.cache
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.AssemblyInfoInputs.cache
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.AssemblyInfo.cs
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.csproj.CoreCompileInputs.cache
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.dll
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/refint/Automat.dll
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.pdb
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/Automat.genruntimeconfig.cache
+/Users/leaspoehle/Desktop/DOCUMENTS/GRIMME/Programmiercode/Bankautomat/Bankautomat/obj/Debug/net6.0/ref/Automat.dll
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.csproj.AssemblyReference.cache
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.AssemblyInfoInputs.cache
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.AssemblyInfo.cs
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.csproj.CoreCompileInputs.cache
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.dll
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/refint/Automat.dll
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.pdb
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/bin/Debug/net6.0/Automat
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/bin/Debug/net6.0/Automat.deps.json
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/bin/Debug/net6.0/Automat.runtimeconfig.json
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/bin/Debug/net6.0/Automat.dll
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/bin/Debug/net6.0/Automat.pdb
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/Automat.genruntimeconfig.cache
+/Users/leaspoehle/Desktop/grimme/ATM OOP Grimme/ATM OOP Grimme/obj/Debug/net6.0/ref/Automat.dll
